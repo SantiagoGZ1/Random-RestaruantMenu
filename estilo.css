@@ -1,0 +1,57 @@
+.contenedor_JS {
+  display: flex; /*Para que estén uno al lado de otro */
+  flex-wrap: wrap; /* para que bajen y esten al lado y bajo */
+  justify-content: center;
+  color: #333;
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden; /* bloque de scroll horizontal */
+/* Froma facil */
+}
+.flex-item { /* Optimización de resoluciones (tamaños de pantalla)*/
+  flex-grow: 1;
+  margin: 10px;
+  max-width: 350px;
+  border: 2px solid #333;
+  padding: 20px 5px 1px 30px;
+}
+.flex-item:hover {
+  border-color: green;
+  box-shadow: 0px 0px 22px rgb(3, 91, 3);
+}
+.flex-item:focus { /* Para cuando esté seleccionao */
+  border-color: green;
+  box-shadow: 0px 0px 22px rgb(3, 91, 3);
+}
+.comidaImg{
+  width: 50%;
+}
+h2,
+h3 {
+  margin: 0;
+}
+h3 {
+  color: #999;
+}
+p b { /* El b que está dentro del p*/
+  color: green;
+}
+
+.llave-img {
+  width: 130px;
+}
+
+form {
+  text-align: center;
+  text-align: center;
+  padding: 50px;
+}
+input[type="submit"] { /* Botón */
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}

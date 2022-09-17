@@ -1,0 +1,2 @@
+Crea un sistema para tomar la orden de un restaurante y mostar nombre, ingredientes, precio y codigo de forma aleatorias.
+Dependiendo del nombre de la comida, van a salir ingredientes aleatoriamente.
